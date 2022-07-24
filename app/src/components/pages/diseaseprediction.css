@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.select-search{
+    width: 100%;
+    position: absolute;
+    top: 10vh;
+}
+
+.select-search p{
+    font-size: 25px;
+    font-weight: bold;
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 40px;
+}
+
+.search{
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+}
+
+.search-bar{
+    width: 75%;
+}
+
+.click{
+    width: 25%;
+    border: none !important;
+    margin-left: 20px;
+    background-color:#e0ecffff; 
+    height:40px;
+}
+
+.predict{
+    width: 100%;
+    position: absolute;
+    top: 50vh;
+    display: none;
+    /* background-color: aquamarine;   */
+}
+
+.predict p{
+    color: rgb(115, 120, 125);
+}
+
+
+.disease{
+    width: 50%;
+    /* background-color: black; */
+    text-align: center;
+    margin: 0 auto;
+}
+
+.tabs{
+    width: 70%;
+    /* background-color: blueviolet; */
+    margin: 35px auto 0px auto;
+    display: flex;
+}
+
+#general,
+#ayurveda,
+#homeopathy{
+    width: 33.3%;
+    /* background-color:rgba(255, 126, 29, 0.78); */
+    padding: 10px;
+    text-align: center;
+    margin: 3px 0px 6px 0px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    transition: background-color 0.2s ease-in-out;
+}
+
+#general:hover,
+#ayurveda:hover,
+#homeopathy:hover{
+    background-color: #FF7E1D;
+    color: #fff;
+    border: 1px solid #FF7E1D;
+}
+
+.disease-title{
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.tabs a{
+    text-decoration: none;
+    color: black;
+}
+
+.active,
+.active a{
+    background-color: #FF7E1D;
+    color: #fff;
+}
+
+#box{
+    border: 1px solid #ccc;
+    width: 70%;
+    margin: 0 auto;
+    /* height:80vh; */
+}
+
+.tabone,
+.tabtwo,
+.tabthree{
+    display:none;
+    transition: all 0.3s ease-in;
+}
+
+.act{
+    display:block;
+}
+
+.links-andi{
+    display: block;
+}
+
+.card-andi{
+    width:100% !important;
+    margin: 0 auto;
+    background-color: #FF7E1D;
+}
+
+.show-results{
+    width:100%;
+    height: 100px;
+    position: absolute;
+    top:50vh;
+    display:none;
+    /* background-color: #FF7E1D; */
+}
+
+.show-res{
+    width:30%;
+    margin: 0 auto;
+}
+
+.clicks{
+    background-color: #01A452;
+    color: #fff;
+    width: 100%;
+    height: 80px;
+    margin:0 auto;
+    font-size:20px ;
+}
+
+.clicks:hover{
+    background-color: green;
+    color: #fff;
+    
+}
+
+.dis{
+    display: block;
+}
+

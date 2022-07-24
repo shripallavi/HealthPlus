@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.distitle p{
+    font-size: 30px;
+    color: #320b70;
+    font-weight: bold;
+}
+
+.d-left{
+    /* background-color:blue; */
+    height: 87vh;
+    position: absolute;
+    top:13vh;
+    left:0%;
+    width: 30%;
+    border-right: 2px solid #ccc;
+}
+
+/* .d-right{
+    width: 70%;
+    position:absolute;
+    top:13vh;
+    left:25%;
+    margin: 50px;
+    background-color: #FF7E1D;
+} */
+
+button{
+    border: none;
+    color: #000;
+    padding: 7px 25px;
+    text-align: center;
+    text-decoration:none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: all 0.2s ease-in;
+}
+
+button:hover{
+    background-color: #320b70;
+    color: #fff;
+    transform:scale(0.95);
+}
+
+.alpha{
+    /* background-color: violet; */
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    grid-gap: 22px;
+    margin: 0 auto;
+}
+.list-items{
+    width:40%;
+    position: absolute;
+    left:20%;
+    display: none;
+    /* background-color: aqua; */
+}
+
+.diseasesList{
+    width:100%;
+    background-color: aliceblue;
+    padding:30px 25px;
+    margin:20px 0; 
+    transition: all 0.1s ease-in;
+    border-radius: 15px;
+    left:30%;
+    cursor: pointer;
+    /* position: absolute; */
+}
+
+.diseasesList:hover{
+    transform: scale(0.99);
+    background-color: #e0ecffff;
+}
+
+.d-center{
+    /* background-color: aqua; */
+    /* width: 100%; */
+    width:80%;
+    /* left:10%; */
+    margin: 50px auto 0 auto;
+    display:none;
+
+}
+
+#d-box{
+    border: 1px solid #ccc;
+    margin: 0 auto;
+    padding:20px;
+}
+
+.d-name{
+    margin: 0 auto;
+    font-size: 40px;
+}
+
+.d-tabs{
+    /* width: 70%; */
+    margin: 35px auto 0px auto;
+    display: flex;
+}
+
+.d-tabs a{
+    text-decoration: none;
+    color: black;
+}
+
+.active,
+.active a{
+    background-color: #FF7E1D;
+    color: #fff;
+}
+
+#intro,
+#symp,
+#cause,
+#manage,
+#diag{
+    width: 33.3%;
+    /* background-color:rgba(255, 126, 29, 0.78); */
+    padding: 10px;
+    text-align: center;
+    margin: 3px 0px 6px 0px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    transition: background-color 0.2s ease-in-out;
+}
+
+#intro:hover,
+#symp:hover,
+#cause:hover,
+#manage:hover,
+#diag:hover{
+    background-color: #FF7E1D;
+    color: #fff !important;
+    /* border: 1px solid #FF7E1D; */
+}
+
+.tab1,
+.tab2,
+.tab3,
+.tab4,
+.tab5{
+    display:none;
+    transition: all 0.3s ease-in;
+}
+
+.acti{
+    display:block;
+}
+
+.d-right{
+    width: 70%;
+    position:absolute;
+    top:13vh;
+    left:30%;
+    /* margin: 50px; */
+    /* background-color: #FF7E1D!important; */
+    /* border: 2px solid black; */
+    height: 100vh;
+}
+
+.show{
+    display:block;
+}
+

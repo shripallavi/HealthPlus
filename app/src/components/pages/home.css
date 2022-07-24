@@ -1,0 +1,35 @@
+.container{
+    display: flex;
+    width:100%;
+    align-items: center;
+    position: absolute;
+    top:20vh;
+}
+.le{
+    width:50%;
+    float: left;
+    /* background-color: red; */
+    /* position: absolute;
+    left:0; */
+    height:60vh;
+}
+
+.ri{
+    width:50%;
+    float: right;
+    height:60vh;
+}
+.image{
+    width:100%;
+    display: flex;
+    align-items: center;
+}
+
+.text{
+    padding: 80px;
+    transform: translateY(20%);
+}
+
+.image img{
+    width:100%;
+}

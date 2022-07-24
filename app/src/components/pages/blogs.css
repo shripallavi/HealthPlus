@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.page{
+    width: 100vw;
+}
+
+.filter{
+    position: fixed;
+    top:13vh;
+    width:18%;
+    float:left;
+    background-color:#e0ecffff;
+    height:87vh;
+}
+
+.values{
+    width:60%;
+    margin:20px auto;
+    padding:20px;
+}
+
+#fitness{
+    padding:30px !important;
+}
+
+label{
+    padding: 20px 10px;
+}
+
+.left{
+    /* background-color: aquamarine; */
+    width: 64%;
+    position: absolute;
+    top:13vh;
+    left:18%;
+    /* float: left; */
+    
+}
+
+.right{
+    position: fixed;
+    width: 18%;
+    border-left: 2px solid #ccc;
+    padding-top: 20px;
+    position: absolute;
+    top:13vh;
+    height:87vh;
+    right:0;
+}
+
+.metadata{
+    /* position: relative; */
+    padding: 20px auto !important;
+    width: 100% !important;
+    display: grid;    
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: burlywood; */
+}
+
+.date{
+    /* position: absolute; */
+    font-size: 10px;
+    font-weight: bold;
+    left: 0px;
+    padding: 0%;
+    margin: 0%;
+    color: rgb(82, 80, 85);
+}
+
+.tag{
+    /* position: absolute; */
+    font-size: 10px;
+    width: 100%;
+    text-align: right;
+    right: 0px;
+    padding: 0%;
+    margin: 0%;
+    color: orange;
+    font-weight: bold;
+}
+
+.temp{
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+    padding-bottom: 10px;
+    /* background-color: aqua; */
+    border-bottom: 1px solid #ccc;
+    cursor: pointer;
+}
+
+.head{
+    /* background-color: aqua; */
+    padding: 0%;
+    padding-bottom: 17px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.content{
+    width: 83%;
+    margin: 0 auto;
+    height: 87vh;
+}
+
+.titles{
+    font-size: 12px;
+    color: #320b70;
+    padding: 10px 0px;
+}
+
+.titles:hover{
+    color: #7a40d6;
+}
+
+.posts{
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    width:88%;
+    margin: 0 auto;
+    grid-gap: 60px;
+}
+
+.thumbnail{
+    /* height:65%;
+    background-color: #ccc; */
+    /* border-radius: 40px; */
+    background-image: url('../images/obesity.jpeg');
+    height:70%;
+    background-position: center;
+    position:relative;
+}
+
+.blog-post{
+    width:400px;
+    height:300px;
+    border: 1px solid #ccc;
+    /* border-radius: 60px; */
+    /* box-shadow: 0px 0px 12px #888888; */
+}
+
+.blog-tag p{
+    background-color: aliceblue;
+    display:inline-flex;
+    font-size: 10px;
+    padding:8px;
+    width:60px;
+    margin:0;
+    position:absolute;
+    right:5%;
+    bottom:5%;
+    text-align: center !important;
+}
+
+.blog-description{
+    position: relative;
+    height:30%;
+}
+
+.blog-title{
+    font-size: 16px;
+    font-weight: bold;
+    padding:10px 10px 20px 10px;
+}
+
+.blog-title:hover{
+    color:#320b70;
+    cursor: pointer;
+}
+
+.blog-date{
+    font-size: 10px;
+    padding:0 10px;
+    margin:0;
+    position: absolute;
+    bottom:10%;
+}
+
+.blogcontent{
+    width:82%;
+    position: absolute;
+    top:10vh;
+    left:0;
+
+}
+
+.blog{
+    width:60%;
+    /* background-color: #7a40d6; */
+    margin:30px auto 0px auto;
+}
+
+.blogtag{
+    font-size: 10px;
+    padding:10px;
+    background-color: aliceblue;
+    display:inline-flex;
+    margin:0;
+}
+
+.blogtitle{
+    margin:0;
+    padding:10px 0;
+    font-size:24px;
+    font-weight: bold;
+}
+
+.blogdate{
+    margin:0;
+    padding:0;
+    font-size: 12px;
+    color: #232323;
+}
+
+.img{
+    /* height:400px; */
+    width:60%;
+    margin:30px auto 0px auto;
+}
+
+.img img{
+    width:100%;
+}
+
+.blogdata{
+    width:60%;
+    margin:30px auto 0px auto;
+}
+
+.like-save-buttons{
+    display:flex;
+    width:60%;
+    margin:30px auto 0px auto;
+    cursor: pointer;
+}
+
+.like-save-buttons p{
+    padding:0;
+    margin:5px 20px 5px 0px;
+}
+
+.like:hover{
+    color:red;
+}
+
+.star:hover{
+    color: blue;
+}
+
+.related-posts{
+    width:60%;
+    margin:30px auto 0px auto; 
+    margin-bottom:100px;
+}
+
+.related-posts p{
+    padding:0;
+}
+
+.back-button{
+    margin:30px;
+    text-decoration: none;
+    color: #232323;
+    font-size: 12px;
+}
+
+.related-temp{
+    padding:18px 0;
+   
+}
+
+
+
